@@ -1,0 +1,49 @@
+# Ignore the local SQLite database file
+kls_database.db
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+.idea/workspace.xml
+.idea/misc.xml
+.idea/modules.xml
+
+# Gradle Wrapper files
+gradle
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Ignore Android/Java generated files
+*.iml
+.idea/libraries/
+.idea/.name
+.idea/.gitignore
+.idea/vcs.xml
+
+# IntelliJ IDEA files
+.idea
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml
+
+# User-specific configuration
+/.vscode/
+.DS_Store
+
+# Android build folders
+/captures/
+/outputs/
+
+# Proguard files
+proguard-rules.pro
+consumer-rules.pro
+
+# Generated Files
+/build/
+*/build/
+
