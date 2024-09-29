@@ -7,6 +7,14 @@ android {
     namespace = "io.github.amplifystudios.amplifyui"
     compileSdk = 34
 
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }
+
     defaultConfig {
         minSdk = 24
 
@@ -33,6 +41,9 @@ android {
 }
 
 dependencies {
+
+    implementation("androidx.compose.material3:material3:1.3.0")
+    implementation(libs.androidx.runtime.android)
 
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
