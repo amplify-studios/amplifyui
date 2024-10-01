@@ -160,9 +160,8 @@ fun PlayFAB() {
 @Preview
 @Composable
 fun PlayerScreenPreview() {
-    Scaffold {
-        Column {
-            Spacer(modifier = Modifier.padding(0.dp, 350.dp))
+    Scaffold(
+        bottomBar = {
             Card(
                 modifier = Modifier
                     .padding(10.dp, 20.dp)
@@ -187,6 +186,11 @@ fun PlayerScreenPreview() {
                     }
                 }
             )
+        }
+    ) {
+        Column {
+            //ThemeSwitch(size = 40.dp, padding = 5.dp)
+            //Spacer(modifier = Modifier.padding(0.dp, 300.dp))
         }
     }
 }
